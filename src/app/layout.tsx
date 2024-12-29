@@ -7,9 +7,9 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Stuy Fusion | FTC 479",
+  title: "Stuy Fusion 479",
   description:
-    "Stuy Fusion is a FIRST Tech Challenge team based in New York City, comprised of talented students from Stuyvesant High School. As a team, we are dedicated to exploring the exciting world of robotics and competing in the FIRST Tech Challenge.",
+    "Stuy Fusion is an award-winning FIRST Tech Challenge team based in New York City. Our mission is to create a robot viable for the highest levels of competition while staying true to the principles of FIRST by giving back to our communities.",
 };
 
 export default function RootLayout({

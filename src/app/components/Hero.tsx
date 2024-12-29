@@ -23,10 +23,10 @@ export default function Hero() {
           <a href="https://www.youtube.com/@stuyfusion">
             <AiOutlineYoutube className="inline-block w-10 h-10 mt-8 text-gray-600 hover:text-gray-700 cursor-pointer duration-150" />
           </a>
-          <a href="https://www.instagram.com/stuyfusion/">
+          <a href="https://github.com/fusion479">
             <AiOutlineGithub className="inline-block w-10 h-10 mt-8 ml-4 text-gray-600 hover:text-gray-700 cursor-pointer duration-150" />
           </a>
-          <a href="https://github.com/fusion479">
+          <a href="https://www.instagram.com/stuyfusion/">
             <AiOutlineInstagram className="inline-block w-10 h-10 mt-8 ml-4 text-gray-600 hover:text-gray-700 cursor-pointer duration-150" />
           </a>
         </div>

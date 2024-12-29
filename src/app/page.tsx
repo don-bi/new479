@@ -1,7 +1,7 @@
 "use client";
 
 import Container from "@/components/Container";
-import Copyright from "@/components/Copyright";
+import Footer from "@/components/Footer";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Game from "./components/Game";
@@ -16,7 +16,7 @@ export default function Landing() {
         <Sponsors />
         <About />
         <Game />
-        <Copyright theme="dark" />
+        <Footer theme="dark" />
       </Container>
     </Background>
   );
