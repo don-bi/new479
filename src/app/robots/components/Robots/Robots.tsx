@@ -1,3 +1,5 @@
+"use client";
+
 import Info from "./Info";
 import Timeline from "./Timeline";
 import { useState } from "react";
