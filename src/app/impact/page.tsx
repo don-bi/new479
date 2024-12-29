@@ -1,7 +1,7 @@
 "use client";
 
 import Container from "@/components/Container";
-import Copyright from "@/components/Copyright";
+import Footer from "@/components/Footer";
 import Hero from "./components/Hero";
 import List from "./components/List";
 import Background from "@/components/Background";
@@ -13,7 +13,7 @@ export default function Outreach() {
         <Hero />
         <List />
       </Container>
-      <Copyright theme="dark" />
+      <Footer theme="dark" />
     </Background>
   );
 }

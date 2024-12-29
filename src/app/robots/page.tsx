@@ -1,7 +1,7 @@
 "use client";
 
 import Container from "@/components/Container";
-import Copyright from "@/components/Copyright";
+import Footer from "@/components/Footer";
 import Robots from "./components/Robots";
 import Background from "@/components/Background";
 
@@ -10,7 +10,7 @@ export default function About() {
     <Background>
       <Container className="relative">
         <Robots />
-        <Copyright theme="dark" />
+        <Footer theme="dark" />
       </Container>
     </Background>
   );
