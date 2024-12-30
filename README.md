@@ -1,6 +1,6 @@
 # FTC 479 Stuy Fusion's Website
 
-<img width="693" src="https://i.ibb.co/Jn3nbHg/68747470733a2f2f692e6962622e636f2f4a6470323242712f6c6f676f2d64393230396133392e706e67-1.png" />mg width="693" src="https://i.ibb.co/12BS6j5/Screenshot-2023-12-27-at-9-45-29-PM.png" />
+<img width="693" src="https://i.ibb.co/Jn3nbHg/68747470733a2f2f692e6962622e636f2f4a6470323242712f6c6f676f2d64393230396133392e706e67-1.png" />
 
 Welcome to the repository for `fusion479.com`! This document outlines how to set up the project locally and contribute via Pull Requests (PRs).
 
