@@ -3,8 +3,9 @@ import ftc from "../../../public/landing/ftc.jpeg";
 
 export default function Game() {
   return (
-    <div>
-      <h1 className="max-w-4xl mt-24 mx-auto text-center font-display text-3xl text-blue-600 md:text-5xl font-medium tracking-tight sm:text-4xl mb-8">
+    <div className="relative bg-white p-10 shadow-md mt-24 rounded-lg">
+      <div className="border-l-[1px] border-slate-300 h-32 right-1/2 absolute -top-[6rem]" />
+      <h1 className="max-w-4xl mx-auto text-center font-display text-3xl text-blue-600 md:text-5xl font-medium tracking-tight sm:text-4xl mb-8">
         FIRST Tech Challenge
       </h1>{" "}
       <div className="flex flex-col lg:flex-row mt-2 items-center justify-center">

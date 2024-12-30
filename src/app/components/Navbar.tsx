@@ -20,7 +20,7 @@ function Navlink({
   return (
     <Link
       href={href}
-      className={`w-full mb-[2px] md:mb-0 md:w-auto inline-block hover:-translate-y-1 duration-150 font-light rounded-lg px-4 py-2 text-sm text-slate-700 hover:bg-slate-100 hover:text-blue-600 ${
+      className={`w-full uppercase mb-[2px] md:mb-0 md:w-auto inline-block hover:-translate-y-1 duration-150 rounded-lg px-4 py-2 text-xs text-slate-500 tracking-wider hover:font-medium hover:bg-slate-100 hover:text-blue-600 ${
         margin && "mr-2"
       }`}
     >
