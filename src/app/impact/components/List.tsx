@@ -12,21 +12,21 @@ export default function List() {
           title: "FIRST Lego League",
           subtitle: "Mentoring Other FIRST Teams",
           description:
-            "Our team mentors FLL teams. FIRST Lego League is the robotics league for elementary and middle schoolers. Last year, we worked with Stuy Pulse to mentor FLL team 69724 Alpha&Omega, a community FLL team. They were a rookie team, so we helped them navigate their first year in FLL, every step of the way. Some of the alumni who have graduated from that team are planning to volunteer at future FLL events.This September, we helped present a workshop about mentoring FLL at the Cornell Tech STEM Center on Roosevelt Island. The workshop was geared towards both rookie and veteran FLL mentors, so everyone got to learn something new and gain new experience. We’ve also been mentoring FLL team Knight Creators, a Puerto Rican FLL team, through Zoom. We help them with both the innovation project and the robot game.",
+            "Our team mentors FLL teams. FIRST Lego League is the robotics league for elementary and middle schoolers. We volunteer at FIRST events to give back to the NYC FIRST community and remedy referee shortages at FLL and FTC qualifiers. Many of our volunteers were among the first youth FLL referees, setting a precedent to allow more youth volunteers to participate. We are also teaching FLL to a local Girl Scouts troop that we met last school year at  the STEAM Dream robot demo. They are a pre-rookie team, competing in FLL next year! Finally, we along with FTC 310 mentor two FLL teams in Puerto Rico weekly via Zoom. In the words of their team coach, Lizmarie, “When they meet with you, they get inspired.”",
           src: lego,
         },
         {
           title: "At Our School",
           subtitle: "StuySplash, Educating Others",
           description:
-            "Team 479 holds events at our school so we can give back to our own community. Every year, in December, all of Stuyvesant Robotics holds a conference called Stuy Splash where people from the three teams can give presentations about robotics for teams all around New York City.Around 200 people attend the conference every year. We worked together with the Stuyvesant chapter of the Society of Women Engineers, last year, to give a lesson on electrical engineering and circuits.It is important for us to encourage more women to pursue engineering and increase representation. In addition, we are actively involved in school events.We are always there to promote Stuyvesant Robotics during school open house events and alumni events.",
+            "Team 479 holds events at our school so we can give back to our own community. Every year, in December, all of Stuyvesant Robotics holds a conference called Stuy Splash where people from the three teams can give presentations about robotics for teams all around New York City. Around 200 people attend the conference every year. This year, we gave presentations on FTC Programming using Command Base, Innovative Ways to Upgrade Robots (alongside 310), and Rendering in Fusion360. In addition, we are actively involved in school events. We are always there to promote Stuyvesant Robotics during school open house events and alumni events.",
           src: school,
         },
         {
-          title: "Robot Demonstrations",
+          title: "Lessons & Robot Demonstrations",
           subtitle: "Inspiring and Spreading FIRST",
           description:
-            "Our team mentors FLL teams. FIRST Lego League is the robotics league for elementary and middle schoolers. Last year, we worked with Stuy Pulse to mentor FLL team 69724 Alpha&Omega, a community FLL team. They were a rookie team, so we helped them navigate their first year in FLL, every step of the way. Some of the alumni who have graduated from that team are planning to volunteer at future FLL events.This September, we helped present a workshop about mentoring FLL at the Cornell Tech STEM Center on Roosevelt Island. The workshop was geared towards both rookie and veteran FLL mentors, so everyone got to learn something new and gain new experience. We’ve also been mentoring FLL team Knight Creators, a Puerto Rican FLL team, through Zoom. We help them with both the innovation project and the robot game.",
+            "We hold robot demonstrations and lessons online and in person to spread FIRST and engineering to a wide audience. We held a robot demo in Cornell Tech for the ACMSCF Symposium with many world-renowned international engineering researchers. By participating, we put FIRST robotics on a global radar. We also held the STEAM Dream Earth Day, where we showed park visitors how to make a bot that could draw patterns, and let them drive our robot to get them excited about robotics. This is also where we met the Girl Scouts troop that we mentor! Lastly, throughout the spring and summer, we taught weekly lessons on CAD using Onshape to students at the Science High School in Cabanatuan City, Philippines.",
           src: demo,
         },
       ].map((v, i) => (
