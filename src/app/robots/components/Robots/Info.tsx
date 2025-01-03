@@ -41,7 +41,7 @@ const info = [
   },
 
   {
-    name: "[POWERPLAY NAME]",
+    name: "James Charles",
     image: powerplay,
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -55,10 +55,14 @@ const info = [
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.`,
     awards: [
+      " NYC Qualifier 3 Think Award 2nd Place",
       " NYC Qualifier 3 Design Award",
-      " NYC Qualifier 5 Winning Alliance",
-      " NYC Super Qualifier Innovate Award",
-      " NYC Super Qualifier Inspire Award 2nd place",
+      " NYC Qualifier 5 Winning Alliance 1st Pick",
+      " NYC Super Qualifier 2 Inspire Award 2nd Place",
+      " NYC Super Qualifier 2 Finalist Alliance 2nd Pick",
+      " NYC Super Qualifier 2 Innovate Award Winner",
+      " NYC Championship Inspire Award 3rd Place",
+      " NYC Championship Finalist Alliance 1st Pick",
       " NYC Championship Motivate Award",
     ],
     videos: [
@@ -69,11 +73,11 @@ const info = [
       "NYC Championship Motivate Award",
     ],
     code: [
-      "NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+      <a href="https://github.com/fusion479/PowerPlay.git">GitHub</a>,
+      <a href="https://ftcscout.org/events/2022/USNYNYBRQ3/matches">NYC Qualifier 3</a>,
+      <a href="https://ftcscout.org/events/2022/USNYNYQUQ5/matches">NYC Qualifier 5</a>,
+      <a href="https://ftcscout.org/events/2022/USNYNYNYSQ2/matches">NYC Super Qualifier 2</a>,
+      <a href="https://ftcscout.org/events/2022/USNYNYCMP/matches">NYC Championship</a>,
     ],
   },
 
