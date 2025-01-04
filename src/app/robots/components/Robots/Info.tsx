@@ -4,187 +4,123 @@ import { act } from "react-dom/test-utils";
 
 const info = [
   {
-    name: "[CENTERSTAGE NAME]",
+    name: "[INTO THE DEEP NAME]",
     image: powerplay,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. tion ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.`,
+    description: `fake rectangles womp womp`,
     awards: [
-      " NYC Qualifier 3 Design Award",
-      " NYC Qualifier 5 Winning Alliance",
-      " NYC Super Qualifier Innovate Award",
-      " NYC Super Qualifier Inspire Award 2nd place",
-      " NYC Championship Motivate Award",
+      "NYC Qualifier 2 Think Award Winner",
     ],
     videos: [
-      " NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+      
     ],
     code: [
-      "NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+      
+    ],
+  },
+  {
+    name: "[THEO]",
+    image: powerplay,
+    description: `hexagons are the bestagons`,
+    awards: [
+      "NYC Qualifier 2 Think Award Winner",
+      "NYC Qualifier 2 Design Award 3rd Place",
+      "NYC Qualifier 4 Think Award Winner",
+      "NYC Super Qualifiers 1 Finalist Alliance 1st Pick",
+      "NYC Super Qualifiers 1 Think Award Winner",
+      "NYC Championship Finalist Alliance Captain",
+      "NYC Championship Finalist Design Award 3rd Place",
+      "NYC Championship Finalist Promote Award Winner",
+    ],
+    videos: [
+      <b><a href= "https://youtu.be/1cGlKInUGVw?si=k56MmKQ53QeEoi6n"> Centerstage MTI Submission </a></b>,
+      <b><a href= "https://youtu.be/ECyHcyyOW_I?si=x4e9TfUC0rPLX4vL"> NYC Championship Promote Award </a></b>,
+    ],
+    code: [
+
     ],
   },
 
   {
-    name: "[POWERPLAY NAME]",
+    name: "[STEVEN]",
     image: powerplay,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. tion ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.`,
+    description: `stack cup`,
     awards: [
-      " NYC Qualifier 3 Design Award",
-      " NYC Qualifier 5 Winning Alliance",
-      " NYC Super Qualifier Innovate Award",
-      " NYC Super Qualifier Inspire Award 2nd place",
-      " NYC Championship Motivate Award",
+      "NYC Qualifier 3 Think Award 2nd Place",
+      "NYC Qualifier 3 Design Award Winner",
+      "NYC Qualifier 5 Winning Alliance 1st Pick",
+      "NYC Super Qualifier 2 Inspire Award 2nd Place",
+      "NYC Super Qualifier 2 Finalist Alliance 2nd Pick",
+      "NYC Super Qualifier 2 Innovate Award Winner",
+      "NYC Championship Inspire Award 3rd Place",
+      "NYC Championship Finalist Alliance 1st Pick",
+      "NYC Championship Motivate Award Winner",
     ],
     videos: [
-      " NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+      <b><a href= "https://youtu.be/iQ7rFubse38?si=W5AwveR3rZ7It94y"> Powerplay MTI Submission </a></b>,
     ],
     code: [
-      "NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+
     ],
   },
 
   {
     name: "[FREIGHT FRENZY NAME]",
     image: powerplay,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. tion ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.`,
+    description: `train car woo`,
     awards: [
-      " NYC Qualifier 3 Design Award",
-      " NYC Qualifier 5 Winning Alliance",
-      " NYC Super Qualifier Innovate Award",
-      " NYC Super Qualifier Inspire Award 2nd place",
-      " NYC Championship Motivate Award",
+      "NYC Qualifier 3 Winning Alliance 1st Pick",
+      "NYC Qualifier 3 Design Award Winner",
+      "NYC Qualifier 5 Inspire Award 2nd Place",
+      "NYC Qualifier 5 Winning Alliance Captain",
+      "NYC Qualifier 5 Think Award 3rd Place",
+      "NYC Qualifier 5 Control Award Winner",
+      "NYC Qualifier 5 Design Award 3rd Place",
+      "NYC Championship Innovate Award 2nd Place",
     ],
     videos: [
-      " NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+      <b><a href= "https://youtu.be/eH5ao59nbVw?si=0V4ii-xrdjf4FPQK"> Freight Frenzy MTI Submission </a></b>,
     ],
     code: [
-      "NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+
     ],
   },
 
   {
     name: "[ULTIMATE GOAL NAME]",
     image: powerplay,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. tion ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.`,
+    description: `frc 2023 but smaller`,
     awards: [
-      " NYC Qualifier 3 Design Award",
-      " NYC Qualifier 5 Winning Alliance",
-      " NYC Super Qualifier Innovate Award",
-      " NYC Super Qualifier Inspire Award 2nd place",
-      " NYC Championship Motivate Award",
+      "NYC Qualifying Tournament 2 Top Ranked First Place",
+      "NYC Qualifying Tournament 2 Innovate Award Winner",
+      "NYC Qualifying Tournament 2 Design Award 2nd Place",
+      "NYC Championship Tournament Top Ranked 4th Place",
+      "NYC Championship Tournament Innovate Award Winner",
     ],
     videos: [
-      " NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+
     ],
     code: [
-      "NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+
     ],
   },
 
   {
     name: "[SKYSTONE NAME]",
     image: powerplay,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. tion ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.`,
+    description: `lego but ftc`,
     awards: [
-      " NYC Qualifier 3 Design Award",
-      " NYC Qualifier 5 Winning Alliance",
-      " NYC Super Qualifier Innovate Award",
-      " NYC Super Qualifier Inspire Award 2nd place",
-      " NYC Championship Motivate Award",
+      "NYC Qualifier 2 Finalist Alliance 1st Pick",
+      "NYC Qualifier 2 Think Award Winner",
+      "NYC Super Qualifier 1 Finalist Alliance 1st Pick",
+      "NYC Super Qualifier 1 Connect Award Winner",
+      "NYC Championship Connect Award 3rd Place",
+      "NYC Championship Design Award 2nd Place",
     ],
     videos: [
-      " NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+
     ],
     code: [
-      "NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+
     ],
   },
 ];

@@ -10,6 +10,7 @@ export default function Timeline({
   return (
     <div className="border-l hidden xl:block pl-2">
       {[
+        "Into The Deep",
         "Centerstage",
         "Powerplay",
         "Freight Frenzy",
@@ -24,7 +25,7 @@ export default function Timeline({
             className={`inline-block tracking-widest rounded-lg font-light text-xs mr-2 text-gray-500
               ${i === active && "text-blue-700"}`}
           >
-            {2023 - i}:
+            {2024 - i}:
           </span>
           <button
             className={`relative block px-4 py-2 my-4 rounded-lg hover:bg-blue-100 hover:-translate-y-0.5 hover:text-blue-600 duration-150 ${i === active ? "bg-blue-50 text-blue-600" : "text-slate-700"

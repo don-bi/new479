@@ -6,19 +6,19 @@ export default function Executives() {
     <div className="gap-10 grid auto-rows-fr grid-cols-1 sm:grid-cols-2">
       {new Array(
         {
-          name: "Daniel Xu",
+          name: "Victoria Reguyal",
           role: "President",
           avatar,
           description:
-            "Robotics and technology have fascinated me ever since I was a child. Joining 479 as a sophomore, I was a little late to the party, but I felt like I was still welcomed and encouraged to learn just like everyone else. The adrenaline you get watching the team succeed is unlike any other, and you feel kind of proud in a way. FTC has allowed me to develop my skills as an amateur engineer, machinist, software developer, and team leader, and has made me into a more well-rounded individual.",
+            "I’m a senior and I joined Team 479 as a freshman to learn about engineering and electronics while having fun with robots. Though I’ve been interested in STEM since elementary school, I started out with hardly any relevant experience. But in FTC, I have been a part of a warm community with people who push each other to learn and achieve more. Outside of school, I like to spend my time reading, playing games, and exploring the city.",
         },
 
         {
-          name: "Victoria Reguyal",
+          name: "Megan Chan",
           role: "Vice President",
           avatar,
           description:
-            "I’m a junior and I joined Team 479 as a freshman to learn about engineering and electronics while having fun with robots. Though I’ve been interested in STEM since elementary school, I started out with hardly any relevant experience. But in FTC, I have been a part of a warm community with people who push each other to learn and achieve more. Outside of school, I like to spend my time reading, playing games, and exploring the city.",
+            "I joined the team as a sophomore, looking to learn more about mechanical engineering and electronics. Participating in the late-night meetings, I learned more about engineering and FTC in general. Learning from others, I began to take a role in our team for engineering. I’m excited to continue learning about robotics and strive to better my engineering skills to lead the engineering aspect of the team. Outside of school, I really enjoy sleeping in, playing video games, and buying weird snacks to try with friends.",
         },
       ).map((v, i) => (
         <div
