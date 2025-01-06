@@ -41,19 +41,11 @@ const info = [
   },
 
   {
-    name: "James Charles",
+    name: "Stephen",
     image: powerplay,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. tion ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.`,
+    description: `In 2022’s Power Play, two alliances consisting of two teams each competed to manipulate cones and score them on a grid system that was divided into different levels and areas. The challenge involved stacking these cones on top of junctions, which were essentially poles with scoring areas, in order to earn points. Teams could earn additional points through autonomous and teleoperated tasks, with an important focus on endgame strategies in which robots could "park" on the grid in specific ways to earn bonus points.
+
+`,
     awards: [
       " NYC Qualifier 3 Think Award 2nd Place",
       " NYC Qualifier 3 Design Award",
@@ -66,11 +58,11 @@ const info = [
       " NYC Championship Motivate Award",
     ],
     videos: [
-      " NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+      <a href="https://www.youtube.com/watch?v=HsitvZ0JaDc">POWERPLAY Game Animation</a>,
+      <a href="https://www.youtube.com/watch?v=5DdmL6PPfMQ">POWERPLAY Field Walkthrough</a>,
+      <a href="https://www.youtube.com/watch?v=DhhTHuA1Z50">POWERPLAY Kickoff</a>,
+      <a href="https://www.youtube.com/watch?v=tnEnOQaJwjc">POWERPLAY Season Teaser</a>,
+      <a href="https://www.youtube.com/watch?v=A5O-u9kt1ao">POWERPLAY Good Luck</a>,
     ],
     code: [
       <a href="https://github.com/fusion479/PowerPlay.git">GitHub</a>,
