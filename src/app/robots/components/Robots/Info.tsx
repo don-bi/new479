@@ -1,186 +1,140 @@
 import Image from "next/image";
 import powerplay from "../../../../../public/robots/powerplay.webp";
 import { act } from "react-dom/test-utils";
+import { title } from "process";
 
 const info = [
   {
-    name: "[CENTERSTAGE NAME]",
+    name: "[INTO THE DEEP NAME]",
     image: powerplay,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. tion ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.`,
+    description: `The name of the 2024-2025 game is Into the Deep, where two alliances composed of two robots compete to score as many game pieces as possible. Game pieces can be two types, specimens, or samples. Specimens are scored on the colored bars found in the middle area of the field called the submersible. Specimens are created by the human player, found in the observation zone, who takes samples and attaches a hook that allows it to be attached to the bars. Samples are also found in the submersible zone, and are scored in each respective team's buckets. In the end game, teams can earn points by touching the bar, hanging on the first bar, or hanging on the second bar. `
     awards: [
-      " NYC Qualifier 3 Design Award",
-      " NYC Qualifier 5 Winning Alliance",
-      " NYC Super Qualifier Innovate Award",
-      " NYC Super Qualifier Inspire Award 2nd place",
-      " NYC Championship Motivate Award",
+      " NYC Qualifier 2 Think Award Winner",
     ],
     videos: [
-      " NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+      
     ],
     code: [
-      "NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+      {link: "https://github.com/fusion479/deep.git", title: "GitHub"},      
+    ],
+  },
+  {
+    name: "Theo",
+    image: powerplay,
+    description: `In the 2023-2024 game Centerstage, robots attempted to score colored hexagonal game pieces called pixels onto a board called the backdrop. In the autonomous period, teams would preload their robot with pixels and could score them on the backdrop. During the teleop period, pixels would be obtained in through the human player which placed them down. The backdrop contained three lines, which gave teams bonus points for stacking pixels above the line. Another way of earning bonus points was through making mosaics, or three pixels that were all the same color, or all different colors (excluding white). Teams were able to make 1 of each of the 4 different mosaics, but in order for them they count they had to be covered in white pixels. During the endgame period, teams could score bonus points by shooting their drones, one small paper airplane that could land in three zones, each with increasing distance. Lastly, teams could hang on the middle of the field on the truss, which would gain them additional points.`,
+    awards: [
+      " NYC Qualifier 2 Think Award Winner",
+      " NYC Qualifier 2 Design Award 3rd Place",
+      " NYC Qualifier 4 Think Award Winner",
+      " NYC Super Qualifiers 1 Finalist Alliance 1st Pick",
+      " NYC Super Qualifiers 1 Think Award Winner",
+      " NYC Championship Finalist Alliance Captain",
+      " NYC Championship Finalist Design Award 3rd Place",
+      " NYC Championship Finalist Promote Award Winner",
+    ],
+    videos: [
+      {link: "https://youtu.be/1cGlKInUGVw?si=k56MmKQ53QeEoi6n", title: "Centerstage MTI Submission"},
+      {link: "https://youtu.be/ECyHcyyOW_I?si=x4e9TfUC0rPLX4vL", title: "NYC Championship Promote Award"},
+      {link: "https://youtu.be/6e-5Uo1dRic?si=6WXUNk3h8QvfVK4d", title: "Centerstage Game Animation"},
+
+    ],
+    code: [
+      {link: "https://github.com/fusion479/centerstage.git", title: "GitHub"},
     ],
   },
 
   {
     name: "Stephen",
     image: powerplay,
-    description: `In 2022’s Power Play, two alliances consisting of two teams each competed to manipulate cones and score them on a grid system that was divided into different levels and areas. The challenge involved stacking these cones on top of junctions, which were essentially poles with scoring areas, in order to earn points. Teams could earn additional points through autonomous and teleoperated tasks, with an important focus on endgame strategies in which robots could "park" on the grid in specific ways to earn bonus points.
+    description: `In 2022’s PowerPlay, two alliances consisting of two teams each competed to manipulate cones and score them on a grid system that was divided into different levels and areas. The challenge involved stacking these cones on top of junctions, which were essentially poles with scoring areas, in order to earn points. Teams could earn additional points through autonomous and teleoperated tasks, with an important focus on endgame strategies in which robots could "park" on the grid in specific ways to earn bonus points.
 
 `,
     awards: [
       " NYC Qualifier 3 Think Award 2nd Place",
-      " NYC Qualifier 3 Design Award",
+      " NYC Qualifier 3 Design Award Winner",
       " NYC Qualifier 5 Winning Alliance 1st Pick",
       " NYC Super Qualifier 2 Inspire Award 2nd Place",
       " NYC Super Qualifier 2 Finalist Alliance 2nd Pick",
       " NYC Super Qualifier 2 Innovate Award Winner",
       " NYC Championship Inspire Award 3rd Place",
       " NYC Championship Finalist Alliance 1st Pick",
-      " NYC Championship Motivate Award",
+      " NYC Championship Motivate Award Winner",
     ],
     videos: [
-      <a href="https://www.youtube.com/watch?v=HsitvZ0JaDc">POWERPLAY Game Animation</a>,
-      <a href="https://www.youtube.com/watch?v=5DdmL6PPfMQ">POWERPLAY Field Walkthrough</a>,
-      <a href="https://www.youtube.com/watch?v=DhhTHuA1Z50">POWERPLAY Kickoff</a>,
-      <a href="https://www.youtube.com/watch?v=tnEnOQaJwjc">POWERPLAY Season Teaser</a>,
-      <a href="https://www.youtube.com/watch?v=A5O-u9kt1ao">POWERPLAY Good Luck</a>,
+      {link: "https://youtu.be/iQ7rFubse38?si=W5AwveR3rZ7It94y", title: "PowerPlay MTI Submission"},
+      {link: "https://www.youtube.com/watch?v=HsitvZ0JaDc", title: "PowerPlay Game Animation"},
     ],
     code: [
-      <a href="https://github.com/fusion479/PowerPlay.git">GitHub</a>,
-      <a href="https://ftcscout.org/events/2022/USNYNYBRQ3/matches">NYC Qualifier 3</a>,
-      <a href="https://ftcscout.org/events/2022/USNYNYQUQ5/matches">NYC Qualifier 5</a>,
-      <a href="https://ftcscout.org/events/2022/USNYNYNYSQ2/matches">NYC Super Qualifier 2</a>,
-      <a href="https://ftcscout.org/events/2022/USNYNYCMP/matches">NYC Championship</a>,
+      {link: "https://github.com/fusion479/PowerPlay.git", title: "GitHub"},
+      {link: "https://ftcscout.org/events/2022/USNYNYBRQ3/matches", title: "NYC Qualifier 3"},
+      {link: "https://ftcscout.org/events/2022/USNYNYQUQ5/matches", title: "NYC Qualifier 5"},
+      {link: "https://ftcscout.org/events/2022/USNYNYNYSQ2/matches", title: "NYC Super Qualifier 2"},
+      {link: "https://ftcscout.org/events/2022/USNYNYCMP/matches", title: "NYC Championship"},
     ],
   },
 
   {
     name: "[FREIGHT FRENZY NAME]",
     image: powerplay,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. tion ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.`,
+    description: ` `,
     awards: [
-      " NYC Qualifier 3 Design Award",
-      " NYC Qualifier 5 Winning Alliance",
-      " NYC Super Qualifier Innovate Award",
-      " NYC Super Qualifier Inspire Award 2nd place",
-      " NYC Championship Motivate Award",
+      " NYC Qualifier 3 Winning Alliance 1st Pick",
+      " NYC Qualifier 3 Design Award Winner",
+      " NYC Qualifier 5 Inspire Award 2nd Place",
+      " NYC Qualifier 5 Winning Alliance Captain",
+      " NYC Qualifier 5 Think Award 3rd Place",
+      " NYC Qualifier 5 Control Award Winner",
+      " NYC Qualifier 5 Design Award 3rd Place",
+      " NYC Championship Innovate Award 2nd Place",
     ],
     videos: [
-      " NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+      {link: "https://youtu.be/eH5ao59nbVw?si=0V4ii-xrdjf4FPQK", title: "Freight Frenzy MTI Submission"},
+      {link: "https://youtu.be/I6lX12idAf8?si=EAl0b-AIL5TTtKcC", title: "Freight Frenzy Game Animation"},
     ],
     code: [
-      "NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+      {link: "https://github.com/fusion479/freight_frenzy.git", title: "GitHub"},
+      
     ],
   },
 
   {
     name: "[ULTIMATE GOAL NAME]",
     image: powerplay,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. tion ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.`,
+    description: ` `,
     awards: [
-      " NYC Qualifier 3 Design Award",
-      " NYC Qualifier 5 Winning Alliance",
-      " NYC Super Qualifier Innovate Award",
-      " NYC Super Qualifier Inspire Award 2nd place",
-      " NYC Championship Motivate Award",
+      " NYC Qualifying Tournament 2 Top Ranked First Place",
+      " NYC Qualifying Tournament 2 Innovate Award Winner",
+      " NYC Qualifying Tournament 2 Design Award 2nd Place",
+      " NYC Championship Tournament Top Ranked 4th Place",
+      " NYC Championship Tournament Innovate Award Winner",
     ],
     videos: [
-      " NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+      {link: "https://youtu.be/H3V3A7CgwPU?si=5GhWAm3kL2F3Ebrb", title: " Ultimate Goal Game Animation"},
+      
+
     ],
     code: [
-      "NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+      {link: "https://github.com/fusion479/ultimate-goal.git", title: "GitHub"},
     ],
   },
 
   {
     name: "[SKYSTONE NAME]",
     image: powerplay,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. tion ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.`,
+    description: ` `,
     awards: [
-      " NYC Qualifier 3 Design Award",
-      " NYC Qualifier 5 Winning Alliance",
-      " NYC Super Qualifier Innovate Award",
-      " NYC Super Qualifier Inspire Award 2nd place",
-      " NYC Championship Motivate Award",
+      " NYC Qualifier 2 Finalist Alliance 1st Pick",
+      " NYC Qualifier 2 Think Award Winner",
+      " NYC Super Qualifier 1 Finalist Alliance 1st Pick",
+      " NYC Super Qualifier 1 Connect Award Winner",
+      " NYC Championship Connect Award 3rd Place",
+      " NYC Championship Design Award 2nd Place",
     ],
     videos: [
-      " NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+      {link: "https://youtu.be/XiGB_8Ppnbs?si=mE0HokS-RQMvys5u", title: " Skystone Game Animation"},
     ],
     code: [
-      "NYC Qualifier 3 Design Award",
-      "NYC Qualifier 5 Winning Alliance",
-      "NYC Super Qualifier Innovate Award",
-      "NYC Super Qualifier Inspire Award 2nd place",
-      "NYC Championship Motivate Award",
+      {link: "https://github.com/fusion479/skystone.git", title: "GitHub"},
     ],
   },
 ];
@@ -231,7 +185,8 @@ export default function Info({ active }: { active: number }) {
           <ul className="ml-8">
             {info[active].videos.map((v, i) => (
               <li className="flex text-slate-500 text-sm font-semibold" key={i}>
-                <span className="mr-4 h-full">-</span> {v}
+                <span className="mr-4 h-full">-</span> 
+                <a href={v.link}> {v.title} </a>
               </li>
             ))}
           </ul>
