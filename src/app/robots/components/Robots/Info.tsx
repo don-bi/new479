@@ -7,7 +7,7 @@ const info = [
   {
     name: "[INTO THE DEEP NAME]",
     image: powerplay,
-    description: `The name of the 2024-2025 game is Into the Deep, where two alliances composed of two robots compete to score as many game pieces as possible. Game pieces can be two types, specimens, or samples. Specimens are scored on the colored bars found in the middle area of the field called the submersible. Specimens are created by the human player, found in the observation zone, who takes samples and attaches a hook that allows it to be attached to the bars. Samples are also found in the submersible zone, and are scored in each respective team's buckets. In the end game, teams can earn points by touching the bar, hanging on the first bar, or hanging on the second bar. `
+    description: `The name of the 2024-2025 game is Into the Deep, where two alliances composed of two robots compete to score as many game pieces as possible. Game pieces can be two types, specimens, or samples. Specimens are scored on the colored bars found in the middle area of the field called the submersible. Specimens are created by the human player, found in the observation zone, who takes samples and attaches a hook that allows it to be attached to the bars. Samples are also found in the submersible zone, and are scored in each respective team's buckets. In the end game, teams can earn points by touching the bar, hanging on the first bar, or hanging on the second bar. `,
     awards: [
       " NYC Qualifier 2 Think Award Winner",
     ],
@@ -199,7 +199,7 @@ export default function Info({ active }: { active: number }) {
           <ul className="ml-8">
             {info[active].code.map((v, i) => (
               <li className="flex text-slate-500 text-sm font-semibold" key={i}>
-                <span className="mr-4 h-full">-</span> {v}
+                <span className="mr-4 h-full">-</span> {v.title}
               </li>
             ))}
           </ul>
