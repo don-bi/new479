@@ -1,6 +1,7 @@
 import Image from "next/image";
 import powerplay from "../../../../../public/robots/powerplay.webp";
 import { act } from "react-dom/test-utils";
+import { title } from "process";
 
 const info = [
   {
@@ -18,7 +19,7 @@ const info = [
     ],
   },
   {
-    name: "[THEO]",
+    name: "Theo",
     image: powerplay,
     description: `hexagons are the bestagons`,
     awards: [
@@ -32,8 +33,10 @@ const info = [
       "NYC Championship Finalist Promote Award Winner",
     ],
     videos: [
-      <b><a href= "https://youtu.be/1cGlKInUGVw?si=k56MmKQ53QeEoi6n"> Centerstage MTI Submission </a></b>,
-      <b><a href= "https://youtu.be/ECyHcyyOW_I?si=x4e9TfUC0rPLX4vL"> NYC Championship Promote Award </a></b>,
+
+      {link: "https://youtu.be/1cGlKInUGVw?si=k56MmKQ53QeEoi6n", title: "Centerstage MTI Submission"},
+      {link: "https://youtu.be/ECyHcyyOW_I?si=x4e9TfUC0rPLX4vL", title: "NYC Championship Promote Award"},
+      
     ],
     code: [
 
@@ -41,7 +44,7 @@ const info = [
   },
 
   {
-    name: "[STEVEN]",
+    name: "Steven",
     image: powerplay,
     description: `stack cup`,
     awards: [
@@ -56,7 +59,7 @@ const info = [
       "NYC Championship Motivate Award Winner",
     ],
     videos: [
-      <b><a href= "https://youtu.be/iQ7rFubse38?si=W5AwveR3rZ7It94y"> Powerplay MTI Submission </a></b>,
+      {link: "https://youtu.be/iQ7rFubse38?si=W5AwveR3rZ7It94y", title: "Powerplay MTI Submission"},
     ],
     code: [
 
@@ -78,7 +81,7 @@ const info = [
       "NYC Championship Innovate Award 2nd Place",
     ],
     videos: [
-      <b><a href= "https://youtu.be/eH5ao59nbVw?si=0V4ii-xrdjf4FPQK"> Freight Frenzy MTI Submission </a></b>,
+      {link: "https://youtu.be/eH5ao59nbVw?si=0V4ii-xrdjf4FPQK", title: "Freight Frenzy MTI Submission"},
     ],
     code: [
 
@@ -171,7 +174,8 @@ export default function Info({ active }: { active: number }) {
           <ul className="ml-8">
             {info[active].videos.map((v, i) => (
               <li className="flex text-slate-500 text-sm font-semibold" key={i}>
-                <span className="mr-4 h-full">-</span> {v}
+                <span className="mr-4 h-full">-</span> 
+                <a href={v.link}> {v.title} </a>
               </li>
             ))}
           </ul>

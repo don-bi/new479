@@ -12,7 +12,7 @@ export default function Members() {
         { name: "Brandon Ngyuen", role: "Veteran Programmer", avatar, },
         { name: "Stephen Chen", role: "Veteran Engineer", avatar, },
         { name: "Kayden Au", role: "Veteran Engineer", avatar, },
-        { name: "Zachary Aaron", role: "Veteran Engineer", avatar: zachary, },
+        { name: "Zachary Aaron", role: "Veteran Engineer", avatar, },
         { name: "Aidan Gray", role: "Rookie Engineer", avatar, },
         { name: "Cassandra Chan", role: "Rookie Programmer", avatar, },
         { name: "Erica You", role: "Rookie Engineer", avatar, },

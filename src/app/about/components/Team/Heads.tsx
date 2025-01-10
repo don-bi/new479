@@ -2,17 +2,18 @@ import Image from "next/image";
 import avatar from "../../../../../public/team/avatar.webp";
 import owen from "../../../../../public/team/owen.jpg"
 import jason from "../../../../../public/team/jason.jpg"
+import elizabeth from "../../../../../public/team/elizabeth.jpg"
 
 export default function Heads() {
   return (
     <div className="gap-10 grid auto-rows-fr grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-20">
-      {new Array(
+      { new Array(
         {
           name: "Jason Zhao",
           role: "Head of Engineering",
           avatar: jason,
           description:
-            "jason desc",
+            "In my sophomore year, I joined the FTC robotics team 479, feeling a mix of excitement and nerves. The world of robotics and engineering was new to me, and I was unsure of how I would fit in. However, as I spent more time with the team, I quickly became immersed in the technical challenges and collaborative environment. I developed a passion for engineering, learning new skills and concepts along the way. The support from my teammates helped me grow more confident, and I found myself contributing actively to the team's projects, gaining valuable experience in the process.",
         },
 
         {
@@ -26,9 +27,9 @@ export default function Heads() {
         {
           name: "Elizabeth Chen",
           role: "Head of Marketing",
-          avatar,
+          avatar: elizabeth,
           description:
-            "elizabeth desc"
+            "I joined the team as a sophomore with zero prior experience but a strong interest in STEM. Although I was reserved at first, I’ve become a much more confident communicator by participating in and leading outreach initiatives. As Head of Marketing, I'm excited to continue improving myself while giving back to the community and inspiring younger generations to explore STEM. Outside of robotics, I enjoy trying new restaurants with friends, drawing, and watching TV."
         },
       ).map((v, i) => (
         <div
