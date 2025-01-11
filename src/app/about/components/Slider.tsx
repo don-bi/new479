@@ -19,13 +19,16 @@ import fifteen from "../../../../public/community/15.jpg";
 import sixteen from "../../../../public/community/16.jpg";
 import seventeen from "../../../../public/community/17.jpg";
 import eighteen from "../../../../public/community/18.jpg";
+import nineteen from "../../../../public/community/19.jpg";
+import twenty from "../../../../public/community/20.jpg";
+
 
 
 export default function Slider() {
   return (
     <>
       <Marquee className="h-[16.5rem]" speed={75} autoFill>
-        {[one, two, three, four, five, six, seven, eight, nine].map((v, i) => (
+        {[one, two, three, four, five, six, seven, eight, nine, ten].map((v, i) => (
           <Image
             key={i}
             src={v}
@@ -39,7 +42,7 @@ export default function Slider() {
         ))}
       </Marquee>
       <Marquee className="h-[16.5rem]" speed={75} autoFill>
-        {[ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen].map((v, i) => (
+        {[eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty].map((v, i) => (
           <Image
             key={i}
             src={v}
