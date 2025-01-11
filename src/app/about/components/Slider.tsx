@@ -1,7 +1,5 @@
 import Marquee from "react-fast-marquee";
 import Image from "next/image";
-declare module '*.jpg';
-declare module '*.jpeg';
 
 import one from "../../../../public/community/1.jpeg";
 import two from "../../../../public/community/2.jpg";
@@ -24,35 +22,48 @@ import eighteen from "../../../../public/community/18.jpg";
 import nineteen from "../../../../public/community/19.jpg";
 import twenty from "../../../../public/community/20.jpg";
 
-
-
 export default function Slider() {
   return (
     <>
       <Marquee className="h-[16.5rem]" speed={75} autoFill>
-        {[one, two, three, four, five, six, seven, eight, nine, ten].map((v, i) => (
-          <Image
-            key={i}
-            src={v}
-            priority
-            height={224}
-            placeholder="blur"
-            className={`mr-12 rounded-lg ${i % 6 === 0 ? "-rotate-6" : i % 3 === 0 && "rotate-6"
+        {[one, two, three, four, five, six, seven, eight, nine, ten].map(
+          (v, i) => (
+            <Image
+              key={i}
+              src={v}
+              priority
+              height={224}
+              placeholder="blur"
+              className={`mr-12 rounded-lg ${
+                i % 6 === 0 ? "-rotate-6" : i % 3 === 0 && "rotate-6"
               }`}
-            alt="Looping image slider: FTC Team 479 team members at various events and being community members."
-          />
-        ))}
+              alt="Looping image slider: FTC Team 479 team members at various events and being community members."
+            />
+          ),
+        )}
       </Marquee>
       <Marquee className="h-[16.5rem]" speed={75} autoFill>
-        {[eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty].map((v, i) => (
+        {[
+          eleven,
+          twelve,
+          thirteen,
+          fourteen,
+          fifteen,
+          sixteen,
+          seventeen,
+          eighteen,
+          nineteen,
+          twenty,
+        ].map((v, i) => (
           <Image
             key={i}
             src={v}
             priority
             placeholder="blur"
             height={224}
-            className={`mr-12 rounded-lg ${i % 6 === 0 ? "-rotate-6" : i % 3 === 0 && "rotate-6"
-              }`}
+            className={`mr-12 rounded-lg ${
+              i % 6 === 0 ? "-rotate-6" : i % 3 === 0 && "rotate-6"
+            }`}
             alt="Looper image slider: FTC Team 479 team members at various events and being community members."
           />
         ))}
