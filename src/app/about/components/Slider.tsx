@@ -1,5 +1,7 @@
 import Marquee from "react-fast-marquee";
 import Image from "next/image";
+declare module '*.jpg';
+declare module '*.jpeg';
 
 import one from "../../../../public/community/1.jpeg";
 import two from "../../../../public/community/2.jpg";
